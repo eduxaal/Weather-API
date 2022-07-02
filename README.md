@@ -1,6 +1,6 @@
 # 10-day Weather Forecast 
-# Using Accuweather API
-# HTML, CSS and Javascript
+Using Accuweather API
+HTML, CSS and Javascript
 
 Alumno: Ruiz Alvarez Jose Eduardo
 Grupo: 5B BIS
