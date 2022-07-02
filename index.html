@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <head>
+        <!---Title-->
+        <title> Weather API </title>
+        <!--javascript-->
+        <script src="js/main.js" type="module"></script>
+        <!--stylesheets-->
+        <link href="css/style.css" rel="stylesheet"/>
+        <link href="css/icons.css" rel="stylesheet"/>
+        <link href="css/fontawesome/fontawesome.css" rel="stylesheet"/>
+        <link href="css/fontawesome/solid.css" rel="stylesheet"/>
+        <!--fontawesome-->
+        <script src="https://kit.fontawesome.com/40e1376d5d.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="icons/favicon.png">
+        <!--metadata-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <header>
+            <!------------------ Left section of the header ------------------->
+            <div id="header-left"> 
+                <div id="header-icon"><i class="fas icon-big icon-dark icon-clickable fa-location-dot"></i></div>
+                <div id="header-label">
+                    <label id="location-label">Address</label>
+                    <div class="coord">
+                        <label id="lat-label"> Latitude </label>
+                        <label id="long-label"> Longitude </label>
+                    </div>
+                </div>
+            </div>
+            <!------------------ Right section of the header ------------------->
+            <div id="header-right"> 
+                <div class="header-temp">
+                    <label id="current-temp"> Temp </label>
+                    <label class="deg">&deg;C</label>
+                </div>
+            </div>
+        </header>
+        <!-- ---------------- Nav bar ------------------->
+        <nav>
+            <button id="nav-weekly" onclick="location.reload()"><i class="fas icon-big icon-dark icon-clickable fa-calendar"></i></button>
+            <button id="nav-daily" onclick=""><i class="fas icon-big icon-dark icon-clickable fa-sun"></i></button>
+            <button id="nav-hourly" onclick=""><i class="fas icon-big icon-dark icon-clickable fa-clock"></i></button>
+        </nav>
+        <!-- ---------------- Content ------------------->
+        <div id="container">
+            
+        </div>
+    </body>
+</html>
